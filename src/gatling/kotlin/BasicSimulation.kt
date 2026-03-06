@@ -22,20 +22,18 @@ class BasicSimulation : Simulation() {
           "itsmTicketNo": "ITSM-2024-001",
           "projectId": 101,
           "organizationCode": "ORG-CLVR",
-          "group": true,
           "requesterId": 6,
-          "requestDateTime": "2024-06-13 14:30:00",
           "targetInputs": [
-            { "requestId": "1", "requestType": "INFRA_SERVER", "targetId": "1", "targetKey": "1", "targetName": "ggg" },
-            { "requestId": "1", "requestType": "INFRA_SERVER", "targetId": "3", "targetKey": "3", "targetName": "ggg" },
-            { "requestId": "1", "requestType": "INFRA_SERVER", "targetId": "4", "targetKey": "4", "targetName": "ggg" },
-            { "requestId": "1", "requestType": "INFRA_SERVER", "targetId": "5", "targetKey": "5", "targetName": "ggg" },
-            { "requestId": "1", "requestType": "INFRA_SERVER", "targetId": "6", "targetKey": "6", "targetName": "ggg" },
-            { "requestId": "1", "requestType": "INFRA_SERVER", "targetId": "7", "targetKey": "7", "targetName": "ggg" },
-            { "requestId": "1", "requestType": "INFRA_SERVER", "targetId": "8", "targetKey": "8", "targetName": "ggg" },
-            { "requestId": "1", "requestType": "INFRA_SERVER", "targetId": "9", "targetKey": "9", "targetName": "ggg" },
-            { "requestId": "1", "requestType": "INFRA_SERVER", "targetId": "10", "targetKey": "10", "targetName": "ggg" },
-            { "requestId": "1", "requestType": "INFRA_SERVER", "targetId": "11", "targetKey": "11", "targetName": "ggg" }
+            {"requestType": "INFRA_SERVER", "targetId": "1", "targetKey": "1", "targetName": "ggg" },
+            { "requestType": "INFRA_SERVER", "targetId": "2", "targetKey": "2", "targetName": "ggg" },
+            { "requestType": "INFRA_SERVER", "targetId": "3", "targetKey": "3", "targetName": "ggg" },
+            { "requestType": "INFRA_SERVER", "targetId": "4", "targetKey": "4", "targetName": "ggg" },
+            { "requestType": "INFRA_SERVER", "targetId": "5", "targetKey": "5", "targetName": "ggg" },
+            { "requestType": "INFRA_SERVER", "targetId": "6", "targetKey": "6", "targetName": "ggg" },
+            { "requestType": "INFRA_SERVER", "targetId": "7", "targetKey": "7", "targetName": "ggg" },
+            { "requestType": "INFRA_SERVER", "targetId": "8", "targetKey": "8", "targetName": "ggg" },
+            { "requestType": "INFRA_SERVER", "targetId": "9", "targetKey": "9", "targetName": "ggg" },
+            { "requestType": "INFRA_SERVER", "targetId": "10", "targetKey": "10", "targetName": "ggg" }
           ]
         }
     """
